@@ -1,10 +1,11 @@
+//Fonksiyonel Component
 
 const First = ({isim,yas}) => {
   return (
     <>
-    <div style={{ backgroundColor: 'blue', padding:"2rem" }}>First</div>
-    <div>İsim: {isim}</div>
-    <div>Yaş: {yas}</div>
+    <div >First</div>
+    <div style={{ backgroundColor: 'blue', padding:"1rem" }}>İsim: {isim}</div>
+    <div style={{ backgroundColor: 'blue', padding:"1rem" }}>Yaş: {yas}</div>
   </>
   )
 }
